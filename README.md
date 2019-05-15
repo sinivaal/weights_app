@@ -22,6 +22,7 @@ A step by step series of examples that tell you how to get a development env run
 As Raspian has already Python 3 installed you will need to:
 
 Start with making a virtual enviroment in your desired directory:
+
 [Good guide](https://realpython.com/python-virtual-environments-a-primer/) for staring with venv tool.
 
 ```
@@ -29,7 +30,7 @@ python3 -m venv env
 ```
 Then activate your virtual enviroment:
 ```
-source [your virtual enviroment name]/bin/activate
+source env/bin/activate
 ```
 and clone the repository to your project folder:
 
