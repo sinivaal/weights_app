@@ -1,5 +1,7 @@
 from app import connect, config, helpers, hx711
 
+a = 10
+
 def main():
     
     for conf in config.hx_config_test():

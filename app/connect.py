@@ -17,6 +17,7 @@ def db_connect(query, values, params):
     finally:
          if conn:
              conn.close()
+             return ("Connection closed")
  
 #if __name__ == '__main__':
 #    connect()
