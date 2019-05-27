@@ -3,7 +3,7 @@ from app import weigth, helpers, connect, config
 
 
 
-class TestCalc(unittest.TestCase):
+class TestWeightsApp(unittest.TestCase):
     def test_connection(self):
         query = """SELECT current_database();"""
         self.assertEqual(connect.db_connect(query, None, 1), "Connection closed")
