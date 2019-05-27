@@ -1,5 +1,5 @@
 import unittest
-from application import weigth, helpers, connect, config
+from app import weigth, helpers, connect, config
 
 
 
